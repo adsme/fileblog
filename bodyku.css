@@ -1,0 +1,119 @@
+<style>
+body {
+margin: 0px; font-family: &#39;Poppins&#39;, sans-serif; color:#494949;letter-spacing:auto;line-height:1.5em;font-size:20px}
+a {	text-decoration: none;}
+h1 {
+			margin: 25px auto 0;
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 17px;
+		}
+img {max-width: 100%; height: auto;border-radius:0px}
+#headermenu, #landingpage {margin-bottom: 0px; clear:both;}
+.box-column {padding:0px 0px 0px 0px; border:0px dotted $bordercolor;}
+#left-side .widget, #right-bar .widget {padding: 0 0px;	margin: 0px 0 0px 0;}
+#outer-wrapper {max-width: 100%; margin: 0px auto; padding: 0px; border:0px}
+#peklis-wrapper { overflow: hidden;}
+.right {float: right;}
+.left {float: left;}
+#header-wrapper {overflow: hidden; margin: 0px 0;}
+#left-side{width:70%;float:left;overflow:hidden;}
+#right-bar{width:30%;overflow:hidden;}
+#header {padding: 0px 0;}
+.kanan {float: right;}
+.kiri {float: left;}
+.post-outer {overflow: hidden; padding: 0px; margin: 0 0 10px 0;}
+.postt {float: left; margin: 0 5px 0 0;}
+.info-post a {color: #666;	margin-right: 6px;}
+.info-post {font-size: 12px; margin: 0 0 5px 0;	color: #666; overflow: hidden;}
+.snippetpost {font-size: 18px;	line-height: 21px;}
+.date-header {font-size: 12px;	padding: 15px 0 0 0;}
+#blog-pager a:hover {background: #ffffff;}
+#blog-pager a {display: inline-block; padding: 6px 12px; font-size: 12px; text-transform: uppercase; font-weight: bold;}
+#blog-pager {border-bottom: 0px solid #2980b9;	border-radius: 5px;}
+#page-loader{position:fixed!important;position:absolute;top:0;right:0;bottom:0;left:0;z-index:999999;background:#fff url(https://telegra.ph/file/7087ec4ee2bf5d72d055d.png) no-repeat 50% 50%;padding:1em 1.2em;display:none}
+#ignielRelated{display:block; margin:20px 0px;  line-height:1.5em;max-width:1140px}
+#ignielRelated h3.title{ font-weight:600;  text-align:center;  text-transform:uppercase;  line-height:initial;}
+.dihome{ font-size:26px; }
+.dipostingan{ font-size:16px;}
+#ignielRelated h3.title span{  background-color:#fff;  padding:0px 15px;  position:relative;  z-index:1;}
+#ignielRelated h3.title:before{  content: &#39;&#39;;  display: block;  position: relative;  top:20px;  width: 100%;  border-top: 2px solid #cccccc;}
+#ignielRelated ul{  margin:20px 0px 0px;  padding:0px;  display:flex;  display:-webkit-flex;  flex-wrap:wrap;  -webkit-flex-wrap:wrap;  -ms-flex-wrap:wrap;}
+#ignielRelated ul li{  list-style:none;  width:calc((100% / 3) - 15px);  text-align:center;  margin-right:20px;  margin-bottom:20px;  padding:0px;  -webkit-margin-start:0px !important;}
+#ignielRelated ul li .thumb{  overflow:hidden;  line-height:0px;  border-radius:7px;}
+#ignielRelated ul li:nth-of-type(3n){  margin-right:0px;}
+#ignielRelated ul li a{  display:block;}
+#ignielRelated ul li a.judul{  color:#494949; font-weight:500;  margin-top:7px;font-size:18px}
+#ignielRelated ul li a.judul:hover, #ignielRelated ul li:hover a.judul{  color:#2167c7;}
+#ignielRelated ul li a img{  width:100%;  max-height:143px;  transition:all .3s ease;  border:0px;  margin:0px;}
+#ignielRelated ul li a img:hover, #ignielRelated ul li:hover img{ filter: brightness(75%);  -webkit-filter: brightness(75%);}
+#ignielRelated .norelated{  text-align:center;  font-weight:600;}
+.gsc-search-box {width: 100%;margin-left: -8px }
+.gsc-search-box input {outline: none;}
+input:focus::-webkit-input-placeholder {color: transparent;}
+input:focus:-moz-placeholder {color: transparent;}
+input:focus::-moz-placeholder {color: transparent;}
+.gsc-search-box input {background: url(//2.bp.blogspot.com/-xpzxYc77ack/VDpdOE5tzMI/AAAAAAAAAeQ/TyXhIfEIUy4/s1600/search-dark.png) no-repeat 10px 13px #f2f2f2;border: 2px solid #b1b1b1;font: bold 12px Arial,Helvetica,Sans-serif;color: #6A6F75;width: 100%;padding: 15px 17px 10px 30px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;text-shadow: 0 2px 3px #fff;-webkit-transition: all 0.7s ease 0s;-moz-transition: all 0.7s ease 0s;-o-transition: all 0.7s ease 0s;transition: all 0.7s ease 0s;}
+.follow-by-email-email{border: 2px solid #b1b1b1;font: normal 14px Arial,Helvetica,Sans-serif;color: #6A6F75;width: 100%;padding: 15px 10px 15px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;text-shadow: 0 2px 3px #fff;-webkit-transition: all 0.7s ease 0s;-moz-transition: all 0.7s ease 0s;-o-transition: all 0.7s ease 0s;transition: all 0.7s ease 0s;}
+.follow-by-email-inner{text-align:center;}
+.tombol-submit{margin-top:5px;}
+.gsc-search-box input:focus {background: #ffffff;border: 2px solid #b1b1b1;width: 100%;}
+.gsc-input{margin-left: 10px}
+.search-input{width:88%;float:left;}
+.gsc-search-button{background: url(//4.bp.blogspot.com/-slkXXLUcxqg/VEQI-sJKfZI/AAAAAAAAAlA/9UtEyStfDHw/s1600/slider-arrow-right.png) no-repeat;margin-left: 100px;border-width: 0px;width: 43px;height: 45px;text-indent:0px;font-size:1px;overflow:hidden;}
+.search-result {margin: 0 10px;padding: 0 0 10px 0;}
+.link-snippet {font-size: 13px;color: #09a000;}
+.item-snippet {font-size: 13px;}
+.search-result a {color: #1a0dabf;font-size:18px;line-height:1em;text-transform: uppercase;}
+.search-result a:hover {color:#1a0dab;text-decoration:underline !important;}
+.search-result a:visited {color:#7e1a8b;}
+.PopularPosts .item-title {font-size: 18px;}
+.PopularPosts h3.post-title {font-size: 18px;line-height:1.2em;margin:5px 0}
+.PopularPosts .snippet-item {font-size: 14px;line-height:1.5em}
+.PopularPosts .item-snippet {font-size: 14px;line-height:1.3em}
+.PopularPosts .post-content{padding:2px 10px 10px 10px ;background:#fff;margin-bottom:10px;border-radius:3px;}
+.Label ul {margin-left:-35px;}
+.Label li {display:inline-block;list-style:none;margin:0px 0px 5px 0px;background:#fff;padding:5px 8px;width:48%;font-size:16px;border-radius:3px;}
+.FeaturedPost .post-summary {padding:10px;background:#ffffff;border-radius:3px;margin-top:-8px}
+.FeaturedPost h3 {font-size: 18px;line-height:1.3em;margin-top:-10px}
+.FeaturedPost p {font-size: 14px;line-height:1.3em}
+h2.post-title.entry-title,h2.post-title.entry-title a {padding-top:0px;margin-top:0px}
+#right-bar h3.title{padding:10px; margin:20px 0 10px 0;background:#2167c7;color:#ffffff;font-size: 22px;border-radius:3px;}
+.BlogArchive li {font-size: 16px;line-height:1.3em;}
+#ArchiveList {overflow:auto; width:ancho; height:300px; background:white; border-radius:3px; padding:8px;margin-top:-8px}
+.LinkList .widget-content {padding:10px;background:#ffffff;border-radius:3px;margin-top:-8px}
+.LinkList .widget-content li{list-style:none;margin:3px 0 5px -35px;border-bottom:2px dotted #cee0e5;font-size:16px;line-height:2em;}
+.TextList .widget-content li{list-style:none;margin:5px 0 10px -35px;background:#fff;padding:8px 10px;border-radius:3px;font-size:16px}
+.mepet{padding:0px}
+.berbaris{line-height:2em}
+.line10{line-height:2.8em}
+.line9{line-height:2.6em}
+.line8{line-height:2.4em}
+.line7{line-height:2.2em}
+.line6{line-height:2em}
+.line5{line-height:1.8em}
+.line4{line-height:1.6em}
+.line3{line-height:1.4em}
+.line2{line-height:1.2em}
+.line1{line-height:1em}
+.spasi1{letter-spacing:0.05em;}
+.spasi2{letter-spacing:0.1em;}
+.spasi3{letter-spacing:0.15em;}
+.spasi4{letter-spacing:0.2em;}
+.spasi5{letter-spacing:0.25em;}
+@media screen and (max-width:991px) {
+#right-bar h3.title{padding:8px;font-size: 20px;text-align:center;}
+.PopularPosts .post-content,#ArchiveList,.LinkList .widget-content,.TextList .widget-content li {background:#f1f6f7;}
+.Label li {background:#f1f6f7;width:49%}
+.BlogArchive li,.LinkList .widget-content li,.TextList .widget-content li {font-size: 15px;}
+h1.post-title.entry-title,h1.post-title.entry-title a {font-size: 28px;}
+}
+@media screen and (max-width:480px){
+#ignielRelated ul li{width: calc((100% / 2) - 7.5px);margin-right:15px;margin-bottom:15px;  }
+#ignielRelated ul li:nth-of-type(3n){margin-right:15px;}
+#ignielRelated ul li:nth-of-type(2n){margin-right:0px;}
+#ignielRelated ul li a.judul{ font-size:14px;line-height:1.2em;}
+.PopularPosts h3.post-title {font-size: 16px;line-height:1.2em;margin:0} 
+h1.post-title.entry-title,h1.post-title.entry-title a {font-size: 22px;}
+}
+</style>
