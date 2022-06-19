@@ -81,9 +81,6 @@ box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 		padding:0.7rem;
     }
 }
-</style>
-
-<style>
   .slider{
   max-width: 100%;
   display: flex;
@@ -139,9 +136,6 @@ text-overflow: ellipsis;
   .checked {
   color: orange;
 }
-  </style>
-
-<style>
 .ignielPelangi {
     background: linear-gradient(45deg, #26a65b, #5868ec, #f54e80, #f7ca18, #d2527f);
     background-size: 500% 500%;
@@ -164,8 +158,7 @@ text-overflow: ellipsis;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-</style>
-<style>
+
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.5.2
